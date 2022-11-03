@@ -22,3 +22,5 @@ const projects = [
     contributors: 'Amanda Stern, Lily Howlader, Maddie Stevenson'
   },
 ]
+
+export default projects;
