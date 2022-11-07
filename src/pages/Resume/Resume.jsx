@@ -1,5 +1,5 @@
-import MaddieLamb from '../assets/MaddieLamb.jpg'
-import ResumeIcon from '../assets/ResumeIcon.jpg'
+import MaddieLamb from '../../assets/MaddieLamb.jpg'
+import ResumeIcon from '../../assets/ResumeIcon.jpg'
 
 
 const Resume = () => {

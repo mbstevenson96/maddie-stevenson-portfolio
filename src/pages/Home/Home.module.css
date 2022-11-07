@@ -1,0 +1,17 @@
+.container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomePhoto {
+  margin: 30px;
+  width: 40%;
+  border: 3px solid #e09f3e;
+  border-radius: 15px;
+}
+
+.HomeH1 {
+  color: #e09f3e;
+}

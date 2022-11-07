@@ -1,7 +1,7 @@
-import Gmail from '../assets/Gmail.png'
-import GitHub from '../assets/GitHub.png'
-import Linkedin from '../assets/Linkedin.png'
-import ButtonMailto from '../components/ButtonMailTo/ButtonMailTo'
+import Gmail from '../../assets/Gmail.png'
+import GitHub from '../../assets/GitHub.png'
+import Linkedin from '../../assets/Linkedin.png'
+import ButtonMailto from '../../components/ButtonMailTo/ButtonMailTo'
 
 
 const Contact = () => {

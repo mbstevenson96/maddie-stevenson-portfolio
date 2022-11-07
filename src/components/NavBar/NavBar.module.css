@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #335c67;
+  border: 4px solid #9e2a2b;
+}
+
+.navLink:hover {
+  color: #fff3b0;
+}
+
+.navUl > li {
+  list-style: none;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #fff3b0;
+}

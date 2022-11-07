@@ -1,4 +1,4 @@
-import ProjectsList from "../components/ProjectsList/ProjectsList.jsx";
+import ProjectsList from '../../components/ProjectsList/ProjectsList'
 
 const Projects = () => {
 
