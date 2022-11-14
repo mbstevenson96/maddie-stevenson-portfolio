@@ -1,5 +1,6 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
+import { useState } from 'react'
 
 // components
 import NavBar from './components/NavBar/NavBar';
@@ -11,6 +12,7 @@ import Resume from './pages/Resume/Resume';
 
 
 function App() {
+
   return (
     <>
       <NavBar/>

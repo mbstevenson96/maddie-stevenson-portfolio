@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  height: 40px;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.ContactH1 {
+  color: #335c67;
+  font-size: 60px;
+}
+
+.gmailContainer {
+
+}
+
+.gmailContainer > img {
+  background-color: #540b0e;
+  width: 80px;
+
+}
+
+img {
+  background-color: #540b0e;
+}
+
+.githubContainer > img {
+  width: 80px;
+}
+
+.linkedinContainer > img {
+  width: 80px;
+}
