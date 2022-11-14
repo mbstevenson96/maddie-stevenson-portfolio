@@ -6,10 +6,10 @@ const ProjectPreview = (props) => {
         src={props.image} 
         alt={props.title}
       />
-      <li>
+      <section>
         <h2>{props.title}</h2>
         <button>Learn More About This Project</button>
-      </li>
+      </section>
     </>
   );
 }
