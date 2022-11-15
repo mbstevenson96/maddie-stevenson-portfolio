@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.ResumePhoto {
+  margin: 30px;
+  width: 60%;
+  border: 3px solid #e09f3e;
+  border-radius: 15px;
+}
+
+.ResumeH1 {
+  color: #335c67;
+  font-size: 40px;
+  padding: 10px 50px;
+}
+
+.ResumeIcon {
+  background-color: white;
+  border-radius: 10px;
+}
