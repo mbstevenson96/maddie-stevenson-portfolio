@@ -8,7 +8,7 @@ const ProjectDetails = () => {
 
   return (
     <div className={styles.container}>
-      <img 
+      <img className={styles.DetailsImg}
         src={project.image} 
         alt={project.title}
       />
