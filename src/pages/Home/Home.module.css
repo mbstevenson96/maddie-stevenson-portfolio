@@ -8,7 +8,7 @@
 
 .HomePhoto {
   margin: 30px;
-  width: 60%;
+  width: 40%;
   border: 3px solid #e09f3e;
   border-radius: 15px;
 }
@@ -30,6 +30,6 @@
   }
 
   .HomePhoto {
-    width: 50%;
+    width: 20%;
   }
 }
