@@ -1,4 +1,5 @@
 .container {
+  text-align: center;
   width: 100%;
   height: 40px;
   padding: 15px;
@@ -10,24 +11,30 @@
   font-size: 60px;
 }
 
-.gmailContainer {
-
+.ContactPhoto {
+  margin: 30px;
+  width: 60%;
+  border: 3px solid #e09f3e;
+  border-radius: 15px;
 }
 
-.gmailContainer > img {
-  background-color: #540b0e;
-  width: 80px;
+.gmailContainer {
+  padding: 10px;
+}
 
+.githubContainer {
+  padding: 10px;
+}
+
+.linkedinContainer {
+  padding: 10px;
 }
 
 img {
   background-color: #540b0e;
 }
 
-.githubContainer > img {
-  width: 80px;
-}
-
-.linkedinContainer > img {
-  width: 80px;
+a {
+  text-decoration: none;
+  color: #e09f3e;
 }
