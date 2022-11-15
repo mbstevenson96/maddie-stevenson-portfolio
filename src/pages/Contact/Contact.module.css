@@ -34,7 +34,12 @@ img {
   background-color: #540b0e;
 }
 
-a {
+.ContactA {
   text-decoration: none;
   color: #e09f3e;
+}
+.ContactP {
+  color: #e09f3e;
+  font-weight: bold;
+  font-size: 30px;
 }
