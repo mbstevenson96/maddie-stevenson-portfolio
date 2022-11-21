@@ -15,6 +15,7 @@ const ProjectDetails = () => {
       <section>
         <h1 className={styles.DetailsH1}>{project.title}</h1>
         <p className={styles.DetailsP}>{project.description}</p>
+        <p className={styles.DetailsT}>Technologies Used: {project.technologiesUsed}</p>
         <div className={styles.GithubContainer}>
           <a href={project.repositoryLink} target='_blank' rel='noreferrer'>Click for GitHub Repo</a>
         </div>

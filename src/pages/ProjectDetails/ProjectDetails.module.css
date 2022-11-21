@@ -21,6 +21,13 @@
   margin: 20px 100px;
 }
 
+.DetailsT {
+  color: #335c67;
+  font-size: 35px;
+  margin: 20px 100px;
+  font-weight: bold;
+}
+
 a {
   text-decoration: none;
   color: #335c67;
