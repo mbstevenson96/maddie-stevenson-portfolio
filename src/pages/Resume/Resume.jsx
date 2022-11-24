@@ -9,7 +9,7 @@ const Resume = () => {
       <div className={styles.container}>
         <img className={styles.ResumePhoto} src={MaddieLamb} alt="Maddie hiking in Ireland"/>
         <h1 className={styles.ResumeH1}>Click the icon below to view my resume!</h1>
-        <a href='https://drive.google.com/file/d/1KKhO1pxO0iYsKNUYVPNkxZT9qOrH_1h5/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+        <a href='https://drive.google.com/file/d/1xF-7FlAZJMOMGW0i36hAJgGi-23vLk93/view?usp=sharing' target="_blank" rel="noopener noreferrer">
           <button>
             <img className={styles.ResumeIcon} src={ResumeIcon} alt="resume icon"/>
           </button>
