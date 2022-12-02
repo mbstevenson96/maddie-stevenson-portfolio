@@ -21,15 +21,29 @@
   align-items: center;
 }
 
+.AboutP {
+  color: #e09f3e;
+  font-size: 30px;
+  margin: 20px 100px;
+}
+
 @media only screen and (min-width: 640px) {
   .container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
 
   .HomePhoto {
     width: 20%;
+  }
+
+  .Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50%;
   }
 }
