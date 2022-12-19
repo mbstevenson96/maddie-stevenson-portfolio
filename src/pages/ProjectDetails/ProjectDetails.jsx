@@ -12,16 +12,16 @@ const ProjectDetails = () => {
         src={project.image} 
         alt={project.title}
       />
-      <section>
+      <section className={styles.infoContainer}>
         <h1 className={styles.DetailsH1}>{project.title}</h1>
         <p className={styles.DetailsP}>{project.description}</p>
         <p className={styles.DetailsT}>Technologies Used: {project.technologiesUsed}</p>
-        <div className={styles.GithubContainer}>
-          <a href={project.repositoryLink} target='_blank' rel='noreferrer'>Click for GitHub Repo</a>
-        </div>
-        <div className={styles.DeployedContainer}>
-          <a href={project.deploymentLink} target='_blank' rel='noreferrer'> Click for Deployed Site</a>
-        </div>
+        <button className={styles.DetailsButton}>
+          <a href={project.repositoryLink} className={styles.DetailsA}>GitHub Repo</a>
+        </button>
+        <button className={styles.DetailsButton}>
+          <a href={project.deploymentLink} className={styles.DetailsA}>Deployed Site</a>
+        </button>
       </section>
     </div>
   );
