@@ -1,5 +1,7 @@
 import Snowboarding from '../../assets/Snowboarding.jpg'
 import styles from './Contact.module.css'
+import Github from '../../assets/github.png'
+import Linkedin from '../../assets/linkedin.png'
 
 
 const Contact = () => {
@@ -12,13 +14,14 @@ const Contact = () => {
           <div className={styles.gmailContainer}>
             <p className={styles.ContactP}>Email: mbstevenson96@gmail.com</p>
           </div>
-          <div className={styles.githubContainer}>
-            <a className={styles.ContactA} href='https://github.com/mbstevenson96'> Click to View GitHub Profile</a>
+          <div className={styles.contactContainer}>
+            <a className={styles.ContactA} href='https://github.com/mbstevenson96'>
+            <img src={Github} alt='github icon' className={styles.GithubImg}/>
+            </a>
+            <a className={styles.ContactA} href='https://www.linkedin.com/in/mstevenson11/'>
+            <img src={Linkedin} alt='linkedin icon' className={styles.LinkedinImg}/>
+            </a>
           </div>
-          <div className={styles.linkedinContainer}>
-            <a className={styles.ContactA} href='https://www.linkedin.com/in/mstevenson11/'>Click to View Linkedin Profile</a>
-
-        </div>
         </div>
       </div>
     </>
