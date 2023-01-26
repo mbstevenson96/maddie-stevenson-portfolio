@@ -101,7 +101,6 @@ const PostmanIcon = {
   alt: 'Postman Icon'
 }
 
-
 export {
   ReactIcon,
   JavascriptIcon,
