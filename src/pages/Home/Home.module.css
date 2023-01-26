@@ -33,6 +33,18 @@
   margin-bottom: 40px;
 }
 
+.TechStack {
+  border: 3px solid red;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.TechStackImg {
+  filter: brightness(0) invert(1);
+  max-width: 100px;
+  max-height: 100px;
+}
+
 @media only screen and (min-width: 640px) {
   .container {
     display: flex;
